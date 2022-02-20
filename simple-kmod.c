@@ -4,7 +4,9 @@
 #include <linux/module.h>   /* Needed by all modules */
 #include <linux/kernel.h>   /* Needed for KERN_INFO */
 
+#ifndef MODNAME
 #define MODNAME "simple_kmod"
+#endif
 
 MODULE_LICENSE("MIT");
 MODULE_VERSION(KMODVER);
