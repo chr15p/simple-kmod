@@ -1,5 +1,6 @@
 obj-m += simple-kmod.o
 obj-m += simple-procfs-kmod.o
+obj-m += simple-procfs-kmod-livepatch.o
 
 ifndef KVER
 KVER=$(shell uname -r)
